@@ -71,7 +71,7 @@
 
                     this.Controls.Add(matris3[i, j]);
                
-                     matris3[i, j].Text =(int.Parse( matris1[i,j].Text) * int.Parse(matris2[i,j].Text)).ToString();
+                     matris3[i, j].Text =(int.Parse( matris1[i,j].Text) + int.Parse(matris2[i,j].Text)).ToString();
 
                 }
         }
